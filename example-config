@@ -31,10 +31,10 @@ INHIBIT_RMWORK="yes"
 # then be re-signed by the production signing key.
 #
 # TODO: Explain how to generate these files.
-REPO_PROD_CACERT=
-REPO_DEV_CACERT=
-REPO_DEV_SIGNING_CERT=
-REPO_DEV_SIGNING_KEY=
+REPO_PROD_CACERT=prod-cacert.pem 
+REPO_DEV_CACERT=dev-cacert.pem
+REPO_DEV_SIGNING_CERT=dev-cacert.pem
+REPO_DEV_SIGNING_KEY=dev-cakey.pem
 
 # TODO: Add descriptions for:
 #   - BUILD_RSYNC_DESTINATION
